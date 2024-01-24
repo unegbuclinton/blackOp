@@ -21,9 +21,12 @@ const Carousel: FC<carouselAutoSlideProp> = ({ carouselSlides }) => {
   const goToIndex = (slideIndex: number) => setCurrentIndex(slideIndex)
 
   return (
-    <div className='w-full m-auto px-1 relative group mt-10 md:pt-20'>
+    <div className='w-full max-w-[300px] m-auto px-1 relative group mt-10 md:pt-20'>
       <div
-        style={{ backgroundImage: `url(${carouselSlides[currentIndex].url})` }}
+        style={{
+          backgroundImage: `url(${carouselSlides[currentIndex].url})`,
+          backgroundRepeat: 'no-repeat',
+        }}
         className='h-[204px] w-full rounded-lg'
       />
       <p>{carouselSlides[currentIndex].info}</p>

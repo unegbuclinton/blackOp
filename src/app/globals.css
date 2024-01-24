@@ -19,6 +19,7 @@ h4,
 h5,
 p {
   color: white;
+  font-size: 15px;
 }
 
 h2 {
@@ -26,9 +27,13 @@ h2 {
 }
 
 @media only screen and (min-width: 992px) {
-}
-h2 {
-  font-size: 40px;
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
 
 .dot-background {
