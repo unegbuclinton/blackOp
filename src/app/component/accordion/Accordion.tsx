@@ -25,7 +25,7 @@ const Accordion = ({
   return (
     <div
       id='faq'
-      className='py-3 px-3 rounded-lg bg-white/20 border-tertiary w-fit mb-6 max-w-[550px]'
+      className='py-3 px-4 rounded-lg bg-white/20 border-tertiary w-fit mb-6 text-left'
     >
       <div
         onClick={toggleIcon}
