@@ -78,8 +78,13 @@ export default function Home() {
         Our community is built around three pillars:
       </p>
       <div className='flex flex-col lg:flex-row gap-3'>
-        {coreValues?.map(({ iconName, subTitle, title }) => (
-          <CardInfo icon={iconName} subtitle={subTitle} title={title} />
+        {coreValues?.map(({ iconName, subTitle, title }, index) => (
+          <CardInfo
+            key={index}
+            icon={iconName}
+            subtitle={subTitle}
+            title={title}
+          />
         ))}
       </div>
       <Divider />
