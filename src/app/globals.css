@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+html {
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+}
+h2 {
+  font-size: 40px;
+}
+
+.dot-background {
+  width: 100%;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="10" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="2" height="2" fill="%23E9E9E9" /></svg>');
+  background-size: 8px 8px;
+}
