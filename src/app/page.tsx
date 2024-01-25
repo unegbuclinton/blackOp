@@ -27,7 +27,7 @@ export default function Home() {
         <Image
           height={310}
           width={460}
-          className='w-[331px] h-[214px] lg:h-[336px] lg:w-[503px] rounded-lg mb-16 object-cover'
+          className='w-full h-[214px] lg:h-[336px] lg:w-[503px] rounded-lg mb-16 object-cover'
           src='https://blackops.community/wp-content/uploads/2021/03/IMG_7403-scaled.jpg'
           alt='blackop-image'
         />
