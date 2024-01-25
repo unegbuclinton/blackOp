@@ -31,6 +31,7 @@ export default function Home() {
           src='https://blackops.community/wp-content/uploads/2021/03/IMG_7403-scaled.jpg'
           alt='blackop-image'
         />
+        <Link href={'/community'}></Link>
         <Button className='lg:hidden' type='button'>
           Join Community
         </Button>
