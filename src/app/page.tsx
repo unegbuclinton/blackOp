@@ -6,6 +6,8 @@ import Carousel from './component/carousel/Carousel'
 import { coreValues, faq, requirements, teamInfo } from '@/lib/blackOp'
 import CardInfo from './component/cardInfo/CardInfo'
 import Accordion from './component/accordion/Accordion'
+import ScrollToTopButton from './component/scrollToTop/ScrollToTop'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -13,11 +15,14 @@ export default function Home() {
       <div className='lg:flex items-center'>
         <div className='w-[65%]'>
           <h2 className=' max-w-[510px] text-left lg:text-[40px] mb-16 lg:mb-6 font-semibold lg:leading-[1.4]'>
-            Top African Operators building great companies around the world
+            Top African Operators <span>building great companies</span> around
+            the world
           </h2>
-          <Button className='hidden lg:block' type='button'>
-            Join Community
-          </Button>
+          <Link href={'/community'}>
+            <Button className='hidden lg:block' type='button'>
+              Join Community
+            </Button>
+          </Link>
         </div>
         <Image
           height={310}
@@ -32,18 +37,20 @@ export default function Home() {
       </div>
       <Divider />
       <div className='max-w-[900px] mx-auto'>
-        <h2 className=' mb-10 font-semibold'>Who we are</h2>
-        <p>
+        <h2 className=' mb-10 font-semibold'>
+          Who <span>we</span> are
+        </h2>
+        <p className='leading-[2]'>
           Black Ops is an invitation-only community built exclusively for
           African operators, to support our collective journey building and
           scaling great companies.
         </p>
-        <p className='py-4'>
+        <p className='py-4 leading-[2]'>
           Scaling a company is hard. Whether you’re in Operations, People,
           Finance, Growth, Customer Success or other functions, we believe we
           can go farther together.
         </p>
-        <p>
+        <p className='leading-[2]'>
           Our members are tasked with figuring out how to execute their
           company’s strategy to deliver great results. We share knowledge and
           best practices, help each other think through problems, and provide a
@@ -51,18 +58,22 @@ export default function Home() {
         </p>
       </div>
       <Divider />
-      <h2 className=' mb-10 font-semibold'>- Welcome to Black Ops -</h2>
+      <h2 className=' mb-10 font-semibold'>
+        - Welcome to <span>Black Ops</span> -
+      </h2>
       <Carousel carouselSlides={teamInfo} />
       <Divider />
-      <p>
+      <p className='leading-[2]'>
         Our members are operators in the management, leadership and executive
         teams within high growth, venture backed companies, at the CxO, VP,
         Director, General/Country Manager and Senior Manager levels.
       </p>
-      <p className='my-6 font-semibold'>Our membership requirements are:</p>
+      <p className='my-6 font-semibold'>
+        Our membership <span>requirements</span> are:
+      </p>
       <ul>
         {requirements?.map(({ text }, index) => (
-          <li className='text-white mb-4 list-disc ml-5 lg:text-xl' key={index}>
+          <li className='text-white mb-6 list-disc ml-5 lg:text-xl' key={index}>
             {text}
           </li>
         ))}
@@ -88,11 +99,25 @@ export default function Home() {
         ))}
       </div>
       <Divider />
-      <div className='mb-8 max-w-[750px]'>
+      <h2 className='mb-5'>
+        Have a <span>Question?</span>
+      </h2>
+      <p className=' mb-10'>
+        Checkout{' '}
+        <a
+          className='text-secondary underline '
+          href='https://docs.google.com/document/d/1sx6yuZD86T2Wfhc4ykB0foEuASV3SizQ1U3BWURuMPc/edit#heading=h.taxrop6mnkyl'
+        >
+          community FAQs
+        </a>
+        , or reach out using the contact form below.
+      </p>
+      <div className='mb-8 max-w-[750px] lg:mx-auto'>
         {faq.map(({ answer, question }, index) => (
           <Accordion key={index} answer={answer} question={question} />
         ))}
       </div>
+      <ScrollToTopButton />
     </main>
   )
 }

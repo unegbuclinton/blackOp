@@ -12,7 +12,7 @@ const Button = ({
   return (
     <button
       type={type}
-      className={`${className} outline-none text-[15px] font-semibold rounded-md px-2.5 py-2 bg-white text-black border-none justify-center items-center}`}
+      className={`${className} outline-none text-[15px] font-semibold rounded-md px-2.5 py-2 bg-white text-black border-none hover:border-secondary justify-center items-center}`}
     >
       {children}
     </button>

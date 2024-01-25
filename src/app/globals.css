@@ -25,14 +25,30 @@ p {
 h2 {
   font-size: 20px;
 }
+span {
+  color: #0ade93;
+}
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0ade93;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
 @media only screen and (min-width: 992px) {
   h2 {
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: 500;
   }
 
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
