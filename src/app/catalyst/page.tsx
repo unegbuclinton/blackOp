@@ -2,7 +2,7 @@ import React from 'react'
 
 const Catalyst = () => {
   return (
-    <div className='max-w-[1100px] mx-auto px-6 lg:text-center'>
+    <div className='max-w-[950px] mx-auto px-6 lg:text-center'>
       <h2 className='mb-4'>
         Bridging the gap for <span>Emerging Operators</span>
       </h2>
@@ -14,10 +14,10 @@ const Catalyst = () => {
         here to be your catalyst for growth and success in the ever-evolving
         African tech ecosystem.
       </p>
-      <h2 className='my-5'>
+      <h2 className='my-8'>
         Why <span>Black Ops</span> Catalyst?
       </h2>
-      <h3 className='mb-3 font-semibold'>
+      <h3 className='mb-3 lg:mb-6 font-semibold'>
         <span>Empowerment</span> Through Learning:
       </h3>
       <p>
@@ -25,7 +25,7 @@ const Catalyst = () => {
         the latest skills and knowledge crucial for thriving in the dynamic tech
         landscape.
       </p>
-      <h3 className='mb-3 mt-5 font-semibold'>
+      <h3 className='mb-3 lg:mb-6 mt-5 font-semibold'>
         Guidance from <span>seasoned operators</span>:
       </h3>
       <p>
@@ -33,8 +33,8 @@ const Catalyst = () => {
         veterans. Leverage the extensive network of Black Ops to connect with
         seasoned operators who have successfully navigated similar career paths.
       </p>
-      <h3 className='mb-3 mt-5 font-semibold'>
-        Forge <span>Connections:</span>:
+      <h3 className='mb-3 lg:mb-6 mt-5 font-semibold'>
+        Forge <span>Connections</span>:
       </h3>
       <p>
         Join exclusive events, forums, and mixers that foster meaningful
