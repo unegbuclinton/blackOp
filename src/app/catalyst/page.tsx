@@ -17,7 +17,7 @@ const Catalyst = () => {
       <h2 className='my-8'>
         Why <span>Black Ops</span> Catalyst?
       </h2>
-      <h3 className='mb-3 lg:mb-6 font-semibold'>
+      <h3 className='mb-3 lg:mb-3 mt-10 font-semibold'>
         <span>Empowerment</span> Through Learning:
       </h3>
       <p>
@@ -25,7 +25,7 @@ const Catalyst = () => {
         the latest skills and knowledge crucial for thriving in the dynamic tech
         landscape.
       </p>
-      <h3 className='mb-3 lg:mb-6 mt-5 font-semibold'>
+      <h3 className='mb-3 lg:mb-3 mt-10 font-semibold'>
         Guidance from <span>seasoned operators</span>:
       </h3>
       <p>
@@ -33,7 +33,7 @@ const Catalyst = () => {
         veterans. Leverage the extensive network of Black Ops to connect with
         seasoned operators who have successfully navigated similar career paths.
       </p>
-      <h3 className='mb-3 lg:mb-6 mt-5 font-semibold'>
+      <h3 className='mb-3 lg:mb-3 mt-10 font-semibold'>
         Forge <span>Connections</span>:
       </h3>
       <p>
