@@ -22,6 +22,7 @@ const config: Config = {
       },
       boxShadow: {
         xl: 'box-shadow: 0px 0px 25px -4px rgba(70.99999999999999, 103.00000000000013, 232, 0.35);',
+        lg: ' rgba(2, 1, 10, 0.08) 0px 1px 1px 0px, rgba(71, 69, 84, 0.16) 0px 0px 0px 1px, rgb(71 69 84 / 11%) 0px 2px 3px 0px',
       },
     },
   },

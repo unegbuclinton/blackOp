@@ -1,9 +1,9 @@
 export const navBarLinks = [
   { linkTitle: 'Home', link: '/' },
-  { linkTitle: 'Join Community', link: '/' },
-  { linkTitle: 'Catalyst', link: '/' },
-  { linkTitle: 'Newsteller', link: '/' },
-  { linkTitle: 'Hire Talent', link: '/' },
+  { linkTitle: 'Join Community', link: '/community' },
+  { linkTitle: 'Catalyst', link: '/catalyst' },
+  { linkTitle: 'Newsletter', link: '/newsletter' },
+  { linkTitle: 'Hire Talent', link: '/talent' },
 ]
 
 export const teamInfo = [

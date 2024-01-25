@@ -7,8 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Black Ops- Top African operators building great companies',
-  description:
-    'Black Ops &#8211; Top African operators building great companies',
+  description: 'Black Ops-; Top African operators building great companies',
 }
 
 export default function RootLayout({
@@ -20,7 +19,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <Navbar />
-        <div className='pb-5'>{children}</div>
+        <div className='pb-5 pt-28'>{children}</div>
       </body>
     </html>
   )

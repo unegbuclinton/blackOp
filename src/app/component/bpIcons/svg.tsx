@@ -739,7 +739,7 @@ export const icons: Record<string, React.ReactNode> = {
           data-name='Ellipse 42'
           transform='translate(829 3997)'
           fill='#fff'
-          stroke='#98a4c2'
+          stroke='#0ade93'
           stroke-width='1'
         >
           <circle cx='14' cy='14' r='14' stroke='none'></circle>
@@ -750,9 +750,23 @@ export const icons: Record<string, React.ReactNode> = {
           data-name='Path 67'
           d='M13.65-6.275H8.425v5.25H6.575v-5.25H1.35v-1.85H6.575V-13.35h1.85v5.225H13.65Z'
           transform='translate(835.5 4018.188)'
-          fill='#98a4c2'
+          fill='#0ade93'
         ></path>
       </g>
+    </svg>
+  ),
+  upArrowIcon: (
+    <svg
+      width='12'
+      height='12'
+      viewBox='0 0 17 15'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+      <path
+        d='M16.2781 12.2665L9.8151 1.0725C8.9901 -0.3575 7.6401 -0.3575 6.8151 1.0725L0.352105 12.2665C-0.472895 13.6965 0.202105 14.8645 1.8521 14.8645H14.7781C16.4281 14.8645 17.1031 13.6945 16.2781 12.2665Z'
+        fill='#F8F8F8'
+      />
     </svg>
   ),
   minusIcon: (
@@ -768,7 +782,7 @@ export const icons: Record<string, React.ReactNode> = {
           data-name='Ellipse 42'
           transform='translate(821 3998)'
           fill='#fff'
-          stroke='#98a4c2'
+          stroke='#0ade93'
           stroke-width='1'
         >
           <circle cx='14' cy='14' r='14' stroke='none'></circle>
@@ -779,7 +793,7 @@ export const icons: Record<string, React.ReactNode> = {
           data-name='Path 68'
           d='M1.775-7.75H12.662V-5.7H1.775Z'
           transform='translate(828.225 4018.75)'
-          fill='#98a4c2'
+          fill='#0ade93'
         ></path>
       </g>
     </svg>
