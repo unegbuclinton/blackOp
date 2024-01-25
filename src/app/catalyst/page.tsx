@@ -39,8 +39,8 @@ const Catalyst = () => {
       <p>
         Join exclusive events, forums, and mixers that foster meaningful
         connections among like-minded peers, potential collaborators, and
-        industry leaders. Networking isn't just a perk; it's a core pillar of
-        your success.
+        industry leaders. Networking isn&apos;t just a perk; it&apos;s a core
+        pillar of your success.
       </p>
 
       <p className='my-6'>
@@ -52,13 +52,14 @@ const Catalyst = () => {
 
       <p className='my-6'>
         Join Black Ops Catalyst Today: Your journey to success begins here.
-        Whether you're looking to enhance your skills, connect with tech
+        Whether you&apos;re looking to enhance your skills, connect with tech
         leaders, or find your next career move, Black Ops Catalyst is the
         community designed to fuel your growth.
       </p>
 
       <p className='my-6'>
-        Don't just navigate your career; transform it with Black Ops Catalyst.
+        Don&apos;t just navigate your career; transform it with Black Ops
+        Catalyst.
       </p>
 
       <p className='my-6'>Unleash Your Potential. Ignite Your Success.</p>
