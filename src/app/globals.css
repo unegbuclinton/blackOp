@@ -57,7 +57,7 @@ span {
 .hero-img {
   position: relative;
   background: url('/blackOp2.jpg');
-  background-position: 0 0;
+  background-position: -88px 0;
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
