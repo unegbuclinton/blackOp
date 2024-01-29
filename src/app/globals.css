@@ -60,7 +60,7 @@ span {
   background-position: -88px 0;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 63vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -116,6 +116,6 @@ span {
   }
   .hero-img {
     background-position: 0 -140px;
-    height: 63vh;
+    height: 70vh;
   }
 }
