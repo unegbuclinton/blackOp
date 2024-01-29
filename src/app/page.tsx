@@ -189,7 +189,7 @@ export default function Home() {
           <Image
             height={100}
             width={100}
-            className=''
+            className='object-cover'
             key={index}
             alt=''
             src={img}
