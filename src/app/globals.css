@@ -116,5 +116,6 @@ span {
   }
   .hero-img {
     background-position: 0 -140px;
+    height: 63vh;
   }
 }
