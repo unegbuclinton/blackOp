@@ -78,7 +78,11 @@ export default function Home() {
             entire organizations, driving value for businesses.
           </p>
           <div className='flex gap-6'>
-            <Button type='button'>Join community</Button>
+            <Link href={'/community'}>
+              <Button className='lg:hidden' type='button'>
+                Join Community
+              </Button>
+            </Link>
           </div>
         </div>
         <Image
@@ -101,9 +105,11 @@ export default function Home() {
           </p>
           <div className='flex gap-6'>
             <Button type='button'>Register</Button>
-            <Button secondary type='button'>
-              Learn more
-            </Button>
+            <Link href={'/catalyst'}>
+              <Button secondary type='button'>
+                Learn more
+              </Button>
+            </Link>
           </div>
         </div>
         <Image
