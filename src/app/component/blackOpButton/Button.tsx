@@ -4,15 +4,21 @@ const Button = ({
   children,
   type,
   className,
+  secondary,
 }: {
   children: ReactNode
   type: 'button' | 'submit'
   className?: string
+  secondary?: boolean
 }) => {
   return (
     <button
       type={type}
-      className={`${className} outline-none text-[15px] font-semibold rounded-md px-2.5 py-2 bg-white text-black border-none hover:border-secondary justify-center items-center}`}
+      className={` outline-none ${
+        secondary
+          ? 'bg-secondaryShadow border-secondary border border-solid text-white'
+          : 'border-none bg-white'
+      } text-[15px] font-semibold rounded-md px-2.5 py-2 text-black ${className} hover:border-secondary justify-center items-center}`}
     >
       {children}
     </button>

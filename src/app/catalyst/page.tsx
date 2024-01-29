@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import React from 'react'
+import Button from '../component/blackOpButton/Button'
 
 const Catalyst = () => {
   return (
@@ -6,7 +8,7 @@ const Catalyst = () => {
       <h2 className='mb-4'>
         Bridging the gap for <span>Emerging Operators</span>
       </h2>
-      <p className='leading-[2]'>
+      <p className='leading-[2] mb-10'>
         Black Ops Catalyst is a community for entry level and mid level
         operators. We understand the challenges operators face in their
         professional journey. Whether you&apos;re at the early stages of your
@@ -14,9 +16,22 @@ const Catalyst = () => {
         here to be your catalyst for growth and success in the ever-evolving
         African tech ecosystem.
       </p>
-      <h2 className='my-8'>
-        Why <span>Black Ops</span> Catalyst?
-      </h2>
+      <Button type='button' className=''>
+        Apply Now
+      </Button>
+      <div className='catalyst-heroImg mt-10'>
+        <Image
+          alt='catalyst image'
+          src={'/catalyst1.jpg'}
+          height={100}
+          width={100}
+          className='w-full h-full border-4 border-solid border-black'
+        />
+        <h2 className='my-8'>
+          Why <span>Black Ops</span> Catalyst?
+        </h2>
+      </div>
+      {/* 
       <h3 className='mb-3 lg:mb-3 mt-10 font-semibold'>
         <span>Empowerment</span> Through Learning:
       </h3>
@@ -62,7 +77,7 @@ const Catalyst = () => {
         Catalyst.
       </p>
 
-      <p className='my-6'>Unleash Your Potential. Ignite Your Success.</p>
+      <p className='my-6'>Unleash Your Potential. Ignite Your Success.</p> */}
     </div>
   )
 }

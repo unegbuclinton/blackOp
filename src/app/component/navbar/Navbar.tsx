@@ -62,7 +62,7 @@ const Navbar = () => {
       </div>
       <ul
         ref={sideNavRef}
-        className={`fixed w-[100vw] h-[100vh] bg-black flex flex-col lg:hidden top-[63px] left-0 z-20 p-4 pl-[28px] ${
+        className={`fixed w-[100vw] h-[100vh] bg-black flex flex-col lg:hidden top-[75px] left-0 z-20 p-4 pl-[28px] ${
           !open ? '-translate-x-full' : ''
         } transition-transform duration-500 ease-in-out`}
       >

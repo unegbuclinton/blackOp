@@ -142,3 +142,35 @@ export const faq = [
     ),
   },
 ]
+
+export const partners = [
+  { img: '/partner1.png' },
+  { img: '/partner2.png' },
+  { img: '/partner3.png' },
+  { img: '/partner4.png' },
+  { img: '/partner5.png' },
+]
+
+export const feedback = [
+  {
+    feedbackText:
+      'The support I received at Segalerty helped me to land my first job. Very grateful for the opportunity',
+    name: 'Joyce Eboh',
+    role: 'Product Designer, Cova Inc.',
+    img: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    feedbackText:
+      'This place provided all I needed to prepare myself, build my portfolio and CV to get my first meaningful job. I highly recommend.',
+    name: 'Joshua Freeman',
+    role: 'Front End Developer, Oval.',
+    img: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    feedbackText:
+      'I was lucky to be part of the first set of talents selected in the pilot. We had access to STS facility and all support provided for free. It was indeed a life changer.',
+    name: 'Adeolu Ogunbade',
+    role: 'Backend Developer, Andela.',
+    img: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+]
