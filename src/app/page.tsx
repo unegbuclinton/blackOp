@@ -211,7 +211,10 @@ export default function Home() {
       </div>
       <div className='flex flex-col lg:flex-row gap-4 text-grey'>
         {feedback?.map(({ feedbackText, name, role, img }, index) => (
-          <div key={index} className='lg:max-w-[33%]'>
+          <div
+            key={index}
+            className='lg:max-w-[33%] mb-4 border-grey/20 border border-solid p-2 rounded-md'
+          >
             <p className='mb-6'>{feedbackText}</p>
             <div className='flex gap-4'>
               <Image
